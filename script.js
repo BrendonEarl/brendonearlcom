@@ -6,7 +6,7 @@ window.onload = function() {
         if (event.key === "Enter") {
             event.preventDefault();
             var name = input.value.trim();
-            if (name.toLowerCase() === "mare" || name.toLowerCase() === "maren") {
+            if (name.toLowerCase() === "mare" || name.toLowerCase() === "maren" || name.toLowerCase() === "maren stucki" || name.toLowerCase() === "maren eliza stucki") {
                 output.textContent = 'I love you a lot :) See you tomorrow bright and early!';
             } else {
                 output.textContent = 'Hello ' + name + '!';
