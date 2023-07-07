@@ -11,3 +11,4 @@ __pycache__
 # Data files
 *.zip
 *.csv
+*.env
