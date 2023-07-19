@@ -1,3 +1,4 @@
 <?php
 
-require 'html/index.html';
+
+require 'html/index.view.php';
