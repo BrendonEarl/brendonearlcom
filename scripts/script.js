@@ -7,7 +7,7 @@ window.onload = function() {
             event.preventDefault();
             var name = input.value.trim();
             if (name.toLowerCase() === "mare" || name.toLowerCase() === "maren" || name.toLowerCase() === "maren stucki" || name.toLowerCase() === "maren eliza stucki") {
-                output.textContent = 'I ♡ U';
+                output.textContent = 'I 💚 U';
             } else {
                 output.textContent = 'Hello ' + name + '!';
             }
