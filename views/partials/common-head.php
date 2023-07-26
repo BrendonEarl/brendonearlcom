@@ -2,4 +2,3 @@
 
 <?php require('navs/header.php') ?>
 
-<?php require('mains/main-start.php') ?>
