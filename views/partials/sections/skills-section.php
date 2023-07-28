@@ -84,6 +84,7 @@
                 return 'fa fa-keyboard';
             case 'frontend':
                 return 'fa fa-code';
+            case 'networking':
             case 'cloud':
                 return 'fa fa-cloud';
             default:
@@ -101,6 +102,7 @@
                 return 'blue';
             case 'frontend':
                 return 'yellow';
+            case 'networking':
             case 'cloud':
                 return 'red';
             default:
