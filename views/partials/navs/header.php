@@ -19,7 +19,7 @@
                     </li>
                     <li class="flex-1 md:flex-none md:mr-3">
                         <a class="inline-block text-gray-400 no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
-                           href="#">Contact Me</a>
+                           href="https://linkedin.com/in/brendon-earl">Contact Me</a>
                     </li>
                     <li class="flex-1 md:flex-none md:mr-3">
                         <div class="relative inline-block">
