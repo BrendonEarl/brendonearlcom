@@ -31,3 +31,17 @@ window.onclick = function (event) {
         }
     }
 }
+
+$(document).ready(function() {
+    $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        // Scroll and offset by the height of the header (change 60 to your header height)
+        $('html, body').animate({
+            'scrollTop': $target.offset().top - 50
+        }, 750, 'swing');
+    });
+});

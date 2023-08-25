@@ -1,3 +1,8 @@
-.full-screen-height {
-    min-height: 100vh;
+.section-anchor::before {
+    content: "";
+    display: block;
+    height: 100px; /* your header height */
+    margin-top: -100px; /* negative value of the same height */
+    visibility: hidden;
+    pointer-events: none;
 }

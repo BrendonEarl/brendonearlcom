@@ -1,7 +1,7 @@
 <?php require('partials/common-head.php') ?>
 <main>
     <div class="flex flex-col md:flex-row">
-        <?php require('sections.php') ?>
+        <?php require('controllers/sections.php') ?>
         <?php require( __DIR__ . '/partials/navs/sidenav.php') ?>
 
 
