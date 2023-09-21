@@ -10,17 +10,17 @@
         $jobs = [
             ['job' => 'Full-Stack Software Engineer' ,'company' => 'Tire Guru','color' => 'blue'],//2022
             ['job' => 'Software Tester' ,'company' => 'iFit','color' => 'pink'],//2021
-            ['job' => 'Night Janitor' ,'company' => 'Utah State University','color' => 'gray'],//2021
+//            ['job' => 'Night Janitor' ,'company' => 'Utah State University','color' => 'gray'],//2021
             ['job' => 'Driver / Mover' ,'company' => 'Wasatch Moving Co.','color' => 'indigo'],//2021
             ['job' => 'Crew Member' ,'company' => 'Outback Firefighting','color' => 'red'],//2020
-            ['job' => 'Landcaper' ,'company' => 'Verdant Gardens','color' => 'yellow'],//2019
+//            ['job' => 'Landcaper' ,'company' => 'Verdant Gardens','color' => 'yellow'],//2019
             ['job' => 'Mowing and Irrigation' ,'company' => 'The Yard Shop','color' => 'green'],//2018
             ['job' => 'Lube Tech' ,'company' => 'Valvoline','color' => 'blue'],//2017
             ['job' => 'Dishwasher' ,'company' => 'Costa Vida','color' => 'purple']//2016
         ];
     ?>
     <div class="flex flex-col md:grid grid-cols-12 text-gray-50">
-        <?php foreach (array_reverse($jobs) as $jobData):
+        <?php foreach ($jobs as $jobData):
             $job = $jobData['job'];
             $company = $jobData['company'];
             $color = $jobData['color'];
