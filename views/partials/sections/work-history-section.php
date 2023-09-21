@@ -8,7 +8,6 @@
 
     <?php
         $jobs = [
-            ['job' => '🏁 Graduate College 🏁!' ,'company' => 'Utah State University','color' => 'yellow'],//2022
             ['job' => 'Full-Stack Software Engineer' ,'company' => 'Tire Guru','color' => 'blue'],//2022
             ['job' => 'Software Tester' ,'company' => 'iFit','color' => 'pink'],//2021
             ['job' => 'Night Janitor' ,'company' => 'Utah State University','color' => 'gray'],//2021
@@ -21,7 +20,7 @@
         ];
     ?>
     <div class="flex flex-col md:grid grid-cols-12 text-gray-50">
-        <?php foreach ($jobs as $jobData):
+        <?php foreach (array_reverse($jobs) as $jobData):
             $job = $jobData['job'];
             $company = $jobData['company'];
             $color = $jobData['color'];
