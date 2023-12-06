@@ -16,7 +16,7 @@
 //            ['job' => 'Landcaper' ,'company' => 'Verdant Gardens','color' => 'yellow'],
             ['job' => 'Mowing and Irrigation' ,'company' => 'The Yard Shop','color' => 'green'],
             ['job' => 'Lube Tech' ,'company' => 'Valvoline','color' => 'blue'],
-            ['job' => 'Dishwasher' ,'company' => 'Costa Vida','color' => 'purple']
+            ['job' => 'Dish Washer' ,'company' => 'Costa Vida','color' => 'purple']
         ];
     ?>
     <div class="flex flex-col md:grid grid-cols-12 text-gray-50">
